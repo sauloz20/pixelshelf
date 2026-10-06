@@ -1,0 +1,278 @@
+# PixelShelf — Expansão Estratégica e Funcional do Marketplace
+
+## Contexto do projeto
+
+Estou desenvolvendo o **PixelShelf**, um marketplace de produtos digitais voltado para designers, desenvolvedores, criadores de conteúdo, freelancers e pequenos negócios.
+
+A plataforma permitirá descobrir, visualizar, comprar e baixar produtos digitais, incluindo:
+
+- Templates de sites e landing pages.
+- Kits de UI, componentes e recursos para designers.
+- Ícones, fontes e elementos gráficos.
+- Templates para Notion e ferramentas de produtividade.
+- Planilhas, ferramentas financeiras e comerciais.
+- Sistemas, scripts, plugins e ferramentas para desenvolvedores.
+- Templates para apresentações e materiais profissionais.
+- Recursos digitais para freelancers e empreendedores.
+
+O objetivo é transformar o PixelShelf em um produto digital profissional, competitivo, escalável e tecnicamente sólido, que possa servir como um projeto de destaque no meu GitHub e futuramente evoluir para um negócio real.
+
+## Sua missão
+
+Atue como uma equipe multidisciplinar composta por:
+
+- Product Manager especializado em marketplaces.
+- Desenvolvedor full-stack sênior.
+- Especialista em UX/UI e design systems.
+- Arquiteto de software.
+- Especialista em segurança de aplicações web.
+- Especialista em comércio eletrônico e monetização.
+- Especialista em SEO, performance e acessibilidade.
+
+Analise profundamente a proposta atual do PixelShelf e identifique tudo o que podemos acrescentar para torná-lo mais útil, diferenciado, competitivo e profissional.
+
+**Não se limite às funcionalidades convencionais de um marketplace.** Procure oportunidades que melhorem a experiência dos compradores, aumentem o valor para os criadores e demonstrem competências técnicas relevantes para recrutadores.
+
+## 1. Descubra funcionalidades que ainda não consideramos
+
+Investigue possibilidades para as seguintes áreas:
+
+### Descoberta e pesquisa
+- Pesquisa avançada com filtros combinados.
+- Recomendações personalizadas.
+- Produtos relacionados e alternativas.
+- Busca por características, tecnologias e formatos de arquivo.
+- Coleções temáticas e listas personalizadas.
+- Comparação de produtos semelhantes.
+- Histórico de navegação e pesquisas recentes.
+- Favoritos e alertas de novos produtos.
+- Exploração por tendências, popularidade e novidades.
+
+### Experiência com os produtos
+- Pré-visualizações interativas quando aplicável.
+- Galerias de imagens e demonstrações.
+- Demonstrações ao vivo de templates de sites.
+- Informações sobre compatibilidade, dependências e versões.
+- Licenças de uso explicadas de maneira clara.
+- Histórico de atualizações e changelog.
+- Avaliações verificadas de compradores.
+- Comentários, perguntas e respostas.
+- Informações sobre acessibilidade e requisitos técnicos.
+- Verificação de arquivos e indicadores de segurança.
+
+### Experiência dos criadores
+- Painel de vendas e desempenho.
+- Gestão de produtos, arquivos e versões.
+- Estatísticas de visualizações, conversão e receita.
+- Cupons, promoções e campanhas.
+- Produtos gratuitos para aquisição de público.
+- Página pública personalizável do criador.
+- Seguidores e notificações de novos lançamentos.
+- Gestão de licenças e suporte pós-venda.
+- Relatórios financeiros e histórico de transações.
+
+### Experiência dos compradores
+- Biblioteca pessoal de produtos adquiridos.
+- Downloads seguros e histórico de versões.
+- Notificações de atualizações.
+- Reemissão de links de download expirados.
+- Lista de desejos e coleções.
+- Histórico de pedidos e recibos.
+- Avaliações vinculadas a compras reais.
+- Acesso aos arquivos sem depender de e-mails antigos.
+
+## 2. Proponha diferenciais que realmente destaquem o PixelShelf
+
+Investigue ideias mais ambiciosas, como:
+
+- Assistente de descoberta de produtos com inteligência artificial.
+- Recomendação de recursos conforme o projeto do usuário.
+- Geração automática de coleções de produtos relacionados.
+- Busca semântica por intenção, não apenas por palavras-chave.
+- Kits de produtos complementares para projetos completos.
+- Sistema de compatibilidade entre plugins, templates e tecnologias.
+- Verificação automatizada de arquivos enviados por criadores.
+- Detecção de produtos duplicados ou potencialmente plagiados.
+- Sistema de reputação e confiabilidade dos vendedores.
+- Licenças comerciais com termos transparentes.
+- Programa de afiliados.
+- Cupons e campanhas promocionais.
+- Produtos gratuitos e modelo freemium.
+- API pública para integrações futuras.
+- Programa de desenvolvedores e integrações com ferramentas externas.
+
+Para cada ideia, explique o problema que resolve, seu valor para o usuário, sua complexidade de implementação e os riscos envolvidos.
+
+Não recomende inteligência artificial apenas por estar em alta. Inclua IA somente quando existir um benefício concreto.
+
+## 3. Explore oportunidades de negócio e monetização
+
+Avalie modelos como:
+
+- Comissão sobre vendas de terceiros.
+- Venda direta de produtos próprios.
+- Planos premium para criadores.
+- Produtos gratuitos para atrair usuários.
+- Licenças pessoais, comerciais e estendidas.
+- Pacotes e bundles de produtos.
+- Cupons e campanhas promocionais.
+- Programa de afiliados.
+- Assinaturas para acesso a coleções, quando economicamente viáveis.
+
+Explique quais modelos são adequados para o início, quais devem ser adiados e quais podem criar complexidade operacional desnecessária.
+
+Considere as particularidades do mercado brasileiro, incluindo pagamentos em reais, emissão de comprovantes, tributação e obrigações legais que precisem de validação profissional.
+
+## 4. Eleve o nível técnico da aplicação
+
+Identifique funcionalidades e práticas que demonstrem capacidade real de engenharia de software:
+
+- Arquitetura organizada e modular.
+- Autenticação e autorização seguras.
+- Controle de acesso baseado em funções e permissões.
+- Validação de entradas no frontend e backend.
+- Proteção contra uploads maliciosos.
+- Armazenamento privado de arquivos digitais.
+- Links de download temporários e autorizados.
+- Integração segura com provedores de pagamento.
+- Validação de webhooks e idempotência.
+- Tratamento consistente de erros.
+- Logs estruturados e auditoria de ações importantes.
+- Testes unitários, de integração e end-to-end.
+- Documentação da API.
+- CI/CD com GitHub Actions.
+- Docker e ambiente reproduzível.
+- Monitoramento, métricas e rastreamento de falhas.
+- Estratégias de backup e recuperação.
+- Otimização de consultas ao banco de dados.
+- Cache, paginação e busca eficiente.
+- Rate limiting e proteção contra abuso.
+- Observabilidade e alertas operacionais.
+
+Classifique as funcionalidades por importância e justifique quais realmente são necessárias para o estágio inicial.
+
+## 5. Aprimore a experiência visual e a identidade da marca
+
+A direção visual desejada é moderna, minimalista, premium e editorial, inspirada na qualidade de experiência de marketplaces como Creative Market e Gumroad, sem copiar seus layouts ou identidade visual.
+
+Considere:
+
+- Design system consistente.
+- Tipografia, cores, espaçamentos e hierarquia visual.
+- Cards de produtos com prévias atraentes.
+- Páginas de produto bem estruturadas.
+- Pesquisa e filtros intuitivos.
+- Estados de carregamento, erro, sucesso e ausência de resultados.
+- Skeleton loading quando apropriado.
+- Microinterações discretas.
+- Responsividade para celular, tablet e desktop.
+- Acessibilidade por teclado e leitores de tela.
+- Contraste adequado e navegação clara.
+- Performance e carregamento otimizado.
+- Painéis administrativos visualmente consistentes.
+
+Identifique oportunidades para criar uma identidade visual própria para o PixelShelf.
+
+## 6. Segurança, confiança e aspectos legais
+
+Considere os riscos específicos de um marketplace de arquivos digitais:
+
+- Arquivos maliciosos e uploads não autorizados.
+- Links de download compartilhados indevidamente.
+- Fraudes em pagamentos.
+- Compras duplicadas por notificações repetidas.
+- Produtos pirateados e violações de direitos autorais.
+- Avaliações falsas.
+- Abuso de cupons e programas de afiliados.
+- Vazamento de dados pessoais.
+- Contas comprometidas.
+- Disputas, reembolsos e chargebacks.
+
+Proponha medidas proporcionais ao estágio do produto, considerando LGPD, direitos autorais, termos de uso, política de privacidade e obrigações relacionadas à venda de produtos digitais no Brasil. Destaque pontos que exigem análise jurídica ou contábil especializada.
+
+## 7. Analise o que os concorrentes fazem e o que podemos fazer melhor
+
+Compare o posicionamento e as experiências de Creative Market, Gumroad, Lemon Squeezy e outros concorrentes relevantes.
+
+Se tiver acesso à internet, pesquise informações atuais e utilize fontes confiáveis.
+
+Identifique:
+- Funcionalidades comuns entre os concorrentes.
+- Problemas e fricções nas experiências existentes.
+- Oportunidades pouco exploradas.
+- Nichos que podem ser atendidos inicialmente.
+- Possíveis vantagens competitivas do PixelShelf.
+- Funcionalidades que não valem a pena copiar.
+
+Não invente informações sobre concorrentes. Diferencie fatos verificados de hipóteses e sugestões.
+
+## 8. Priorize as ideias
+
+Para cada funcionalidade proposta, forneça:
+
+1. Nome.
+2. Descrição.
+3. Problema resolvido.
+4. Benefício para compradores.
+5. Benefício para criadores.
+6. Valor para o portfólio técnico.
+7. Complexidade: baixa, média ou alta.
+8. Dependências técnicas.
+9. Prioridade: P0, P1, P2 ou P3.
+10. Critérios objetivos de conclusão.
+
+Use esta classificação:
+
+- **P0:** necessário para um produto funcional, seguro e confiável.
+- **P1:** diferencial importante para a primeira versão pública.
+- **P2:** evolução após validar o produto.
+- **P3:** recurso experimental ou de longo prazo.
+
+## 9. Crie um roadmap de desenvolvimento
+
+Organize a implementação em etapas:
+
+- Etapa 1: definição do produto e requisitos.
+- Etapa 2: arquitetura e modelagem de dados.
+- Etapa 3: identidade visual e design system.
+- Etapa 4: catálogo, pesquisa e páginas de produtos.
+- Etapa 5: autenticação, usuários e biblioteca pessoal.
+- Etapa 6: uploads, armazenamento e downloads seguros.
+- Etapa 7: checkout, pagamentos e pedidos.
+- Etapa 8: funcionalidades para criadores.
+- Etapa 9: diferenciais estratégicos.
+- Etapa 10: testes, segurança e performance.
+- Etapa 11: deploy, documentação e apresentação no GitHub.
+
+Adapte as etapas às dependências reais. Não implemente pagamentos, recursos avançados ou múltiplos vendedores antes de estabelecer uma base confiável.
+
+## 10. Entregáveis obrigatórios
+
+Organize a resposta final com:
+
+1. Diagnóstico da proposta atual do PixelShelf.
+2. Lista de funcionalidades novas e relevantes.
+3. Dez diferenciais com maior potencial.
+4. Comparação estratégica com concorrentes.
+5. Modelo de negócio recomendado.
+6. Arquitetura técnica sugerida.
+7. Funcionalidades prioritárias para o MVP.
+8. Funcionalidades que devem ser adiadas ou descartadas.
+9. Roadmap técnico por etapas.
+10. Riscos, dependências e medidas de segurança.
+11. Critérios de sucesso do produto.
+12. Uma especificação funcional consolidada, pronta para orientar o desenvolvimento.
+
+## Regras importantes
+
+- Seja crítico: não aprove automaticamente todas as ideias.
+- Evite transformar o projeto em uma plataforma excessivamente complexa.
+- Não confunda quantidade de funcionalidades com qualidade.
+- Priorize utilidade real, segurança, experiência do usuário e viabilidade.
+- Diferencie o que é essencial, o que é um diferencial e o que é apenas interessante.
+- Não presuma que recursos externos são gratuitos ou possuem APIs abertas.
+- Não implemente funcionalidades sem definir seus requisitos e critérios de aceitação.
+- Evite microserviços e infraestrutura distribuída sem necessidade comprovada.
+- Não invente dados de mercado, métricas ou informações sobre concorrentes.
+
+**Objetivo final:** transformar o PixelShelf em um marketplace de produtos digitais com identidade própria, funcionalidades relevantes, arquitetura profissional e qualidade suficiente para se destacar como projeto de portfólio e ter potencial de evolução para um negócio real.

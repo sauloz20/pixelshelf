@@ -1,0 +1,573 @@
+# PRIORIDADE MÁXIMA: EXPERIÊNCIA DO USUÁRIO (UX)
+
+A partir deste ponto, trate a **experiência do usuário como uma das prioridades máximas do projeto PixelShelf**.
+
+Não quero apenas um site visualmente bonito.
+
+Quero uma plataforma que seja **intuitiva, rápida, agradável, previsível e fácil de usar**, mesmo para alguém que nunca utilizou o PixelShelf antes.
+
+O usuário deve conseguir entrar no site e entender rapidamente:
+
+- O que é o PixelShelf.
+- O que pode encontrar nele.
+- Como pesquisar produtos.
+- Como avaliar se um produto é adequado.
+- Como comprar.
+- Onde encontrar seus produtos depois da compra.
+- Como baixar uma atualização.
+- Como vender produtos, caso seja criador.
+
+## 1. Analise toda a jornada do usuário
+
+Mapeie a experiência completa de:
+
+### Visitante
+
+Entrada no site → descoberta → pesquisa → filtros → produto → avaliação → decisão de compra.
+
+### Comprador
+
+Cadastro → descoberta → produto → checkout → pagamento → confirmação → biblioteca → download → atualização → avaliação.
+
+### Criador
+
+Cadastro → criação do perfil → upload → informações do produto → publicação → vendas → métricas → atualização do produto → recebimento.
+
+Identifique pontos de fricção em cada etapa e proponha soluções.
+
+## 2. Reduza a carga cognitiva
+
+Evite apresentar informações demais simultaneamente.
+
+Analise:
+
+- Quantidade de elementos na tela.
+- Hierarquia visual.
+- Quantidade de opções.
+- Organização dos menus.
+- Textos e microcopy.
+- Formulários.
+- Filtros.
+- Botões.
+- Cards.
+- Modais.
+- Notificações.
+
+Sempre pergunte:
+
+> "O usuário sabe o que fazer a seguir?"
+
+Se a resposta for não, proponha uma melhoria.
+
+## 3. Crie uma navegação extremamente intuitiva
+
+Projete uma arquitetura de informação clara.
+
+Considere uma navegação semelhante a:
+
+**Home**
+
+**Explorar**
+
+**Categorias**
+
+**Criadores**
+
+**Ofertas**
+
+**Meus produtos**
+
+**Favoritos**
+
+**Carrinho**
+
+**Perfil**
+
+Não adicione itens apenas porque parecem úteis.
+
+Determine quais opções realmente precisam aparecer no menu principal e quais devem ficar em menus secundários.
+
+No desktop, considere sidebar ou navegação superior conforme fizer mais sentido.
+
+No mobile, pense em uma navegação própria para telas pequenas.
+
+## 4. Melhore a descoberta de produtos
+
+A descoberta deve ser uma das melhores partes do PixelShelf.
+
+Projete:
+
+- Busca extremamente clara.
+- Autocomplete.
+- Sugestões de pesquisa.
+- Categorias.
+- Tags.
+- Filtros.
+- Ordenação.
+- Produtos em destaque.
+- Produtos populares.
+- Produtos novos.
+- Produtos relacionados.
+- Histórico recente.
+- Recomendações.
+
+Analise também a possibilidade de uma busca em linguagem natural.
+
+Exemplo:
+
+> "Preciso de um dashboard financeiro para uma pequena empresa."
+
+O sistema poderia apresentar produtos relacionados à intenção do usuário.
+
+## 5. Crie uma página de produto excelente
+
+A página de produto deve ser tratada como uma das páginas mais importantes da aplicação.
+
+Analise cuidadosamente:
+
+- Galeria.
+- Preview.
+- Vídeo ou demonstração.
+- Nome.
+- Categoria.
+- Criador.
+- Avaliação.
+- Número de vendas.
+- Preço.
+- Desconto.
+- Licença.
+- Compatibilidade.
+- Formatos.
+- Tamanho dos arquivos.
+- Última atualização.
+- Changelog.
+- Requisitos.
+- Descrição.
+- FAQ.
+- Avaliações.
+- Produtos relacionados.
+
+O usuário deve conseguir responder rapidamente:
+
+**"Isso é exatamente o que eu preciso?"**
+
+antes de comprar.
+
+## 6. Otimize o processo de compra
+
+O checkout deve ter o mínimo possível de fricção.
+
+Analise:
+
+- Quantidade de etapas.
+- Campos obrigatórios.
+- Resumo do pedido.
+- Cupom.
+- Métodos de pagamento.
+- Segurança percebida.
+- Erros.
+- Confirmação.
+- Feedback durante o pagamento.
+
+Evite formulários desnecessariamente longos.
+
+Após a compra, o usuário deve saber imediatamente:
+
+**"Minha compra deu certo. Onde está meu produto?"**
+
+## 7. Crie uma biblioteca pessoal excelente
+
+Depois da compra, o usuário deve possuir uma área:
+
+# Minha Biblioteca
+
+Com:
+
+- Produtos comprados.
+- Downloads.
+- Última versão.
+- Atualizações disponíveis.
+- Histórico de versões.
+- Licença.
+- Data da compra.
+- Criador.
+- Atalho para suporte.
+
+Se um produto receber uma atualização, isso deve ficar evidente.
+
+## 8. Microinterações
+
+Analise onde microinterações realmente melhorariam a experiência.
+
+Exemplos:
+
+- Favoritar produto.
+- Adicionar ao carrinho.
+- Copiar cupom.
+- Download iniciado.
+- Produto comprado.
+- Atualização disponível.
+- Pesquisa realizada.
+- Filtro aplicado.
+- Upload concluído.
+- Produto publicado.
+
+As animações devem ser **sutis e funcionais**.
+
+Não utilize animações apenas para impressionar.
+
+## 9. Estados da interface
+
+Projete explicitamente todos os estados:
+
+### Loading
+
+Skeletons e indicadores adequados.
+
+### Empty state
+
+Exemplo:
+
+> "Você ainda não possui produtos na sua biblioteca."
+
+E mostrar uma ação clara:
+
+**Explorar produtos**
+
+### Error state
+
+Explicar o problema e apresentar uma ação para tentar novamente.
+
+### Success state
+
+Confirmar claramente o que aconteceu.
+
+### Offline / conexão instável
+
+Informar o usuário sem destruir a experiência.
+
+### Pesquisa sem resultados
+
+Em vez de apenas:
+
+> "Nenhum resultado encontrado."
+
+mostrar:
+
+> "Não encontramos produtos para 'dashboard financeiro'."
+
+E sugerir:
+
+- Remover filtros.
+- Pesquisar termos semelhantes.
+- Explorar uma categoria.
+
+## 10. Design responsivo de verdade
+
+Não quero simplesmente "adaptar o desktop para celular".
+
+Projete a experiência pensando separadamente em:
+
+- Desktop.
+- Notebook.
+- Tablet.
+- Smartphone.
+
+Analise:
+
+- Navegação.
+- Cards.
+- filtros.
+- checkout.
+- páginas de produto.
+- downloads.
+- dashboards.
+- formulários.
+
+Determine quais componentes devem mudar de comportamento em cada breakpoint.
+
+## 11. Acessibilidade
+
+A experiência deve funcionar para o maior número possível de usuários.
+
+Considere:
+
+- Navegação por teclado.
+- Foco visível.
+- Contraste.
+- Tamanho de texto.
+- Labels.
+- Mensagens de erro.
+- Leitores de tela.
+- Semântica HTML.
+- Estados de interação.
+- Redução de movimento.
+- Áreas clicáveis adequadas.
+
+Não trate acessibilidade como etapa posterior.
+
+## 12. Performance como parte da UX
+
+Considere performance como uma característica da experiência.
+
+Analise:
+
+- Imagens otimizadas.
+- Lazy loading.
+- Code splitting.
+- Cache.
+- Paginação.
+- Busca eficiente.
+- Skeleton loading.
+- Compressão.
+- CDN.
+- Otimização de fontes.
+- Redução de JavaScript desnecessário.
+
+O usuário não deve esperar uma página inteira carregar para começar a interagir.
+
+## 13. Mobile-first quando fizer sentido
+
+Avalie cuidadosamente quais experiências devem ser projetadas primeiro para dispositivos móveis.
+
+Principalmente:
+
+- Busca.
+- Catálogo.
+- Página de produto.
+- Favoritos.
+- Biblioteca.
+- Checkout.
+
+## 14. Microcopy
+
+Quero textos de interface claros e humanos.
+
+Evite mensagens genéricas como:
+
+> "Error 500"
+
+Prefira:
+
+> "Não conseguimos carregar seus produtos agora."
+
+Com uma ação:
+
+**Tentar novamente**
+
+Analise também:
+
+- Botões.
+- Placeholders.
+- Mensagens de erro.
+- Confirmações.
+- Tooltips.
+- Empty states.
+- Onboarding.
+
+## 15. Onboarding
+
+Analise se novos usuários precisam de onboarding.
+
+O onboarding deve ser curto e contextual.
+
+Não crie um tutorial gigante.
+
+O usuário deve aprender usando o produto.
+
+Para criadores, considere uma experiência guiada para:
+
+**Criar conta → criar perfil → publicar primeiro produto → acompanhar primeira venda.**
+
+## 16. Confiança
+
+Como o PixelShelf envolve dinheiro e arquivos digitais, a UX deve transmitir confiança.
+
+Considere:
+
+- Informações claras sobre o vendedor.
+- Avaliações verificadas.
+- Número de vendas.
+- Data da última atualização.
+- Informações de licença.
+- Segurança do pagamento.
+- Política de reembolso.
+- Informações de suporte.
+- Histórico do produto.
+- Sinais visuais de confiança.
+
+Não utilize elementos falsos como "1.234 pessoas compraram hoje" apenas para criar urgência.
+
+## 17. Personalização
+
+Avalie como personalizar a experiência sem torná-la invasiva.
+
+Exemplos:
+
+- "Recomendado para você."
+- "Baseado nos seus favoritos."
+- "Você pode gostar destes."
+- "Novos produtos de criadores que você segue."
+- "Continue explorando."
+
+Explique quais dados seriam necessários e quais cuidados de privacidade devem ser considerados.
+
+## 18. UX do criador
+
+Não foque apenas no comprador.
+
+O painel do criador também precisa ser extremamente intuitivo.
+
+Analise:
+
+**Dashboard → Produtos → Novo produto → Upload → Preview → Publicar → Vendas → Analytics**
+
+O criador deve saber:
+
+- O que precisa preencher.
+- O que está faltando.
+- Se o produto está pronto.
+- Se existem erros.
+- Quantas pessoas visualizaram.
+- Quantas compraram.
+- Quanto ganhou.
+
+## 19. Testes de usabilidade
+
+Proponha testes para validar a UX.
+
+Crie tarefas como:
+
+1. Encontrar um template de dashboard financeiro.
+2. Filtrar produtos por categoria.
+3. Abrir um produto.
+4. Avaliar se vale a pena comprar.
+5. Adicionar ao carrinho.
+6. Finalizar uma compra.
+7. Encontrar o produto adquirido.
+8. Fazer o download.
+9. Encontrar uma atualização.
+
+Para cada tarefa, defina:
+
+- Objetivo.
+- Caminho esperado.
+- Possíveis dificuldades.
+- Métrica de sucesso.
+
+## 20. Heurísticas de UX
+
+Avalie o PixelShelf utilizando princípios de usabilidade reconhecidos, incluindo:
+
+- Visibilidade do estado do sistema.
+- Correspondência entre sistema e mundo real.
+- Controle e liberdade do usuário.
+- Consistência.
+- Prevenção de erros.
+- Reconhecimento em vez de memorização.
+- Flexibilidade.
+- Design minimalista.
+- Recuperação de erros.
+- Ajuda e documentação.
+
+## 21. Resultado esperado
+
+Ao final da análise, entregue:
+
+### A. UX Score
+
+Avalie de 0 a 10:
+
+- Descoberta.
+- Navegação.
+- Pesquisa.
+- Página de produto.
+- Checkout.
+- Biblioteca.
+- Experiência do criador.
+- Mobile.
+- Acessibilidade.
+- Performance.
+- Confiança.
+
+### B. Principais problemas
+
+Liste os 10 maiores problemas de UX que o PixelShelf poderia apresentar.
+
+### C. Soluções
+
+Para cada problema, apresente uma solução concreta.
+
+### D. Jornada ideal
+
+Descreva passo a passo a experiência perfeita de:
+
+**Visitante → comprador → cliente recorrente**
+
+e
+
+**Criador → vendedor → criador recorrente**
+
+### E. Wireframe textual
+
+Crie wireframes textuais para:
+
+- Home.
+- Explorar.
+- Resultados de pesquisa.
+- Página de produto.
+- Checkout.
+- Biblioteca.
+- Perfil do criador.
+- Dashboard do criador.
+
+### F. Design System
+
+Defina:
+
+- Tipografia.
+- Escala de espaçamento.
+- Hierarquia.
+- Botões.
+- Inputs.
+- Cards.
+- Badges.
+- Modais.
+- Toasts.
+- Estados.
+- Componentes de navegação.
+- Breakpoints.
+
+### G. Prioridades
+
+Classifique cada melhoria como:
+
+**P0 — essencial**
+
+**P1 — importante**
+
+**P2 — melhoria**
+
+**P3 — experimental**
+
+## Regra principal
+
+Sempre que houver conflito entre:
+
+**mais funcionalidades**
+
+e
+
+**melhor experiência**
+
+priorize **melhor experiência**.
+
+O PixelShelf não deve parecer um projeto que tenta mostrar quantas funcionalidades o desenvolvedor conseguiu programar.
+
+Ele deve parecer um **produto que alguém realmente gostaria de usar**.
+
+A pergunta principal durante todo o desenvolvimento deve ser:
+
+> **"Isso torna a vida do usuário mais fácil?"**
+
+Se não tornar, questione se essa funcionalidade realmente deveria existir.
